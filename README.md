@@ -1,3 +1,4 @@
+[日本語版 (Japanese Version)](./README_ja.md)
 # Centralized Shared Storage for Multi-AZ Web Servers using Amazon EFS
 
 ## Executive Summary
