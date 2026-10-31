@@ -10,6 +10,10 @@
 ---
 
 ## アーキテクチャとAWS構成
+### Architecture Diagram
+
+<img src="images/efs-architecture.png" width="700">
+
 本環境は以下のコンポーネントで構成されています：
 * **カスタムVPC (`10.0.0.0/16`)**: DNS解決およびDNSホスト名を有効化してゼロから構築。
 * **パブリックサブネット**: 高可用性 (HA) を確保するため、2つの異なるAZ (`ap-northeast-1a` および `ap-northeast-1c`) にデプロイ。
