@@ -14,6 +14,7 @@ By mounting a single EFS file system to Apache (`httpd`) web servers running on 
 
 <img src="images/efs-architecture.png" width="700">
 The setup consists of the following components:
+
 * **Custom VPC (`10.0.0.0/16`)**: Built from scratch with DNS resolution and DNS hostnames enabled.
 * **Public Subnets**: Deployed in two distinct Availability Zones (`ap-northeast-1a` and `ap-northeast-1c`) for High Availability (HA).
 * **EC2 Instances**: Launched two Amazon Linux 2023 instances (`Web-Server-1` and `Web-Server-2`).
